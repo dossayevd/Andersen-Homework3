@@ -10,9 +10,9 @@ Array.prototype.myFilter = function (callback, context) {
   return arr;
 };
 
-let arrData = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const arrData = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-let newArr = arrData.myFilter((num) => {
+const newArr = arrData.myFilter((num) => {
   return num > 4;
 });
 
